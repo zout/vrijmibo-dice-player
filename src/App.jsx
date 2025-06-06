@@ -52,7 +52,7 @@ function App() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-pink-200 via-blue-100 to-yellow-200 p-4">
       <h1 className="text-3xl font-bold mb-6 text-blue-900">🎲 VrijMiBo Chaos Dice 🎲</h1>
-      <audio ref={hornRef} src="/airhorn-6466.mp3" preload="auto" />
+      <audio ref={hornRef} src="airhorn-6466.mp3" preload="auto" />
       <button
         className="bg-blue-600 text-white px-8 py-4 rounded-2xl text-2xl shadow-lg hover:bg-blue-700 transition mb-8"
         onClick={handleRoll}
